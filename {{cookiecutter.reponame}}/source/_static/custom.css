@@ -13,7 +13,7 @@ h2 {
 }
 
 /* Center block quotes vertically and horizontally. Based on
-   http://css-tricks.com/vertically-center-multi-lined-text/ 
+   http://css-tricks.com/vertically-center-multi-lined-text/
 */
 
 blockquote {
@@ -29,4 +29,11 @@ blockquote div {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
+}
+
+/* turn off borders and padding in tables containing
+   included source code */
+table.highlighttable td {
+    border: 0;
+    padding: 0;
 }
