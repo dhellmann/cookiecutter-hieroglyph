@@ -1,6 +1,6 @@
-========================
+={% for _ in cookiecutter.title %}={% endfor %}=
  {{cookiecutter.title}}
-========================
+={% for _ in cookiecutter.title %}={% endfor %}=
 
 | {{cookiecutter.full_name}}
 | {{cookiecutter.email}}
